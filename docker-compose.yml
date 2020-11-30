@@ -3,7 +3,7 @@ services:
   manager:
     build:
       context: "./app"
-      dockerfile: "C:/Users/33659/devoir2/Dockerfile.txt"
+      dockerfile: "Dockerfile.txt"
     environment: 
         CSV_FILENAME: "data.csv"
   db:
