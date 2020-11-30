@@ -3,7 +3,9 @@ services:
   manager:
     build:
       context: "./app"
-      dockerfile: "C:/Users/33659/devoir2/Dockerfile.txt"  
+      dockerfile: "C:/Users/33659/devoir2/Dockerfile.txt"
+    environment: 
+        CSV_FILENAME: "data.csv"
   db:
     image: "postgres:latest"
     environment:
